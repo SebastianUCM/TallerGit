@@ -1,6 +1,6 @@
 - working directory 
-- area 
--1
+- stating area 
+-
 
 Flujo de Trabajo 
 
@@ -37,4 +37,18 @@ git log
 git log --onelineline
 git reset "nombre_documento" 				saca un documento del stage
 git status -s 						para verificar
-git reset *.txt						saca del stage todos los documentos .txt				
+git reset *.txt						saca del stage todos los documentos .txt	
+
+ctrl + a						inicio de la linea
+ctrl + e						fin de la linea
+ctrl + k						borra toda la linea	
+
+------------------------------------------------------------------------------------------------------------
+moverme entre hash
+
+ctrl + insert						copiar en bash
+shift + insert						pegar en bash
+
+
+
+		
