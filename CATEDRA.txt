@@ -1,0 +1,40 @@
+- working directory 
+- area 
+-1
+
+Flujo de Trabajo 
+
+- Modificar 
+- Añadir
+- Confirmar
+
+**Parte Practica
+git config --global user.name "SebastianUCM"		configurar cuenta de git
+user.name						
+
+git config --global -l					muestra las credenciales actuales
+touch "nombre_documento.txt" 				crear documento mediante consola
+ls							navegar en carpeta
+git init						crear repositorio de git
+ls -a 							navega en carpeta mostrando todos los documentos
+---------------------------------------------------------------------------------------------------------
+nano
+nano "nombre_documento"					abre editor de texto nano
+ctrl+x							guarda archivo
+yes							guarda	
+enter							confirmo
+---------------------------------------------------------------------------------------------------------
+git status 						muestra el estado de los archivos que estoy modificando
+touch "nombre_documento_2"						
+git status -s						muestra el estado de los archivos que estoy modificando en forma resumida
+git add .						paso los archivos modificados al "area de trabajo"
+git status -s
+git commit -m ""
+
+
+hash es el identificador del commit 
+git log
+git log --onelineline
+git reset "nombre_documento" 				saca un documento del stage
+git status -s 						para verificar
+git reset *.txt						saca del stage todos los documentos .txt				
